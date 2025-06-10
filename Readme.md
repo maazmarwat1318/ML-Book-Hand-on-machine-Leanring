@@ -45,13 +45,30 @@ Install all requirements in requirements.txt file:
 pip install -r requirements.txt
 ```
 
+### 3️⃣ Set PYTHON PATH VARIABLE
+
+Make sure you set the PYTHONPATH variable to the root of this repository - In windows terminal
+
+```sh
+set PYTHONPATH=%CD%
+```
+
+```sh
+pip install jupyter
+```
+
+Install all requirements in requirements.txt file:
+
+````sh
+pip install -r requirements.txt
+
 ## 📝 Running Jupyter Notebook
 
 Once the virtual environment is activated, start Jupyter Notebook:
 
 ```sh
 jupyter notebook
-```
+````
 
 This will open Jupyter Notebook in your web browser.
 
